@@ -10,6 +10,20 @@
 
 @implementation BLPerson
 
+- (void)dealloc
+{
+    [_name release];
+    _name = nil;
+    
+    [super dealloc];
+}
+
++ (BLPerson *)createPerson
+{
+    BLPerson *person = [[BLPerson alloc] initWithName:@"未设置" age:0];
+    return [person autorelease];
+}
+
 
 // 添加 copy 
 - (void)setName:(NSString *)name

@@ -32,10 +32,14 @@
     NSInteger lisiAge = [lisi age];
     NSLog(@"lisiName = %@, lisiAge = %li", lisiName, lisiAge);
     
+    
     BLPerson *wangwu;
     wangwu = [BLPerson alloc];
     wangwu = [wangwu initWithName:@"wangwu" age:100];
+    wangwu.name = @"王五第三";
+    wangwu.age = 101;
     [wangwu sayMyInfo];
+    
     
     NSMutableString *personName = [NSMutableString stringWithFormat:@"王五"];
     [wangwu setName:personName];

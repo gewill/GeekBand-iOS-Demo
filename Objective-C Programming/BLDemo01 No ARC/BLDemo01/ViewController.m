@@ -11,13 +11,22 @@
 
 @interface ViewController ()
 
+
 @end
 
 @implementation ViewController
 
+- (void)dealloc
+{
+     
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    BLPerson *tempPerson = [BLPerson createPerson];
+    [tempPerson sayMyInfo];
     
     BLPerson *zhangsan = [[BLPerson alloc] init];
     [zhangsan sayMyInfo];
@@ -32,10 +41,17 @@
     NSInteger lisiAge = [lisi age];
     NSLog(@"lisiName = %@, lisiAge = %li", lisiName, lisiAge);
     
+    [lisi retain];
+    [lisi release];
+    [lisi release];
+    
     BLPerson *wangwu;
     wangwu = [BLPerson alloc];
     wangwu = [wangwu initWithName:@"wangwu" age:100];
+    wangwu.name = @"王五第三";
+    wangwu.age = 101;
     [wangwu sayMyInfo];
+    
     
     NSMutableString *personName = [NSMutableString stringWithFormat:@"王五"];
     [wangwu setName:personName];

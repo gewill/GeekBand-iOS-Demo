@@ -20,9 +20,7 @@
 
 + (void)printMessage:(NSString *)message;
 
-- (void)setName:(NSString *)name;
-- (void)setAge:(NSInteger)age;
-- (NSString *)name;
-- (NSInteger)age;
+@property (nonatomic, copy)NSString *name;
+@property (nonatomic, assign)NSInteger age;
 
 @end
