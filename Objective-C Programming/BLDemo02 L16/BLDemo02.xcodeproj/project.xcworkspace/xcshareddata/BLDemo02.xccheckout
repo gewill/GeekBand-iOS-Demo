@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E2008534-07CE-4219-9E4E-B12ECF75FAD3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BLDemo02</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BD306323F750F6C6CED71BCF19FF4DA4F5072E71</key>
+		<string>https://github.com/gewill/GeekBand-iOS-Demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Objective-C Programming/BLDemo02 L16/BLDemo02.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BD306323F750F6C6CED71BCF19FF4DA4F5072E71</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gewill/GeekBand-iOS-Demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BD306323F750F6C6CED71BCF19FF4DA4F5072E71</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BD306323F750F6C6CED71BCF19FF4DA4F5072E71</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GeekBand-iOS-Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
