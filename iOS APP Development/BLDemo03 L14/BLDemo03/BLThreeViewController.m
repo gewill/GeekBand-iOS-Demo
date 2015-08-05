@@ -61,7 +61,7 @@
     _pageControl.numberOfPages = 5;
     _pageControl.backgroundColor = [UIColor colorWithRed:0.9716 green:0.9965 blue:0.9031 alpha:0.13];
     [_pageControl addTarget:self
-                     action:@selector(pageControllerCliked:)
+                     action:@selector(pageControlClicked:)
            forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:_pageControl];
     

@@ -67,9 +67,10 @@
     self.navigationItem.leftBarButtonItem = alert;
     
     // add an UIImageView and an image in it
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 212, 200, 200)];
-    UIImage *image = [UIImage imageNamed:@"bg5.png"];
-    [imageView initWithImage:image];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(50, 138, 200, 200)];
+    imageView.image = [UIImage imageNamed:@"bg5.png"];
+    imageView.backgroundColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:0.0];
+    imageView.contentMode = UIViewContentModeScaleToFill;
     [self.view addSubview:imageView];
     
     
