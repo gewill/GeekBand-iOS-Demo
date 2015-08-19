@@ -33,7 +33,7 @@
     
     
     UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width, 100)];
-    headerView.backgroundColor = [UIColor colorWithRed:0.3698 green:0.8993 blue:0.7738 alpha:0.74];
+    headerView.backgroundColor = [UIColor colorWithRed:0.251 green:0.502 blue:0.0 alpha:1.0];
     _tableView.tableHeaderView = headerView;
     
     UIView *footerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width, 100)];
