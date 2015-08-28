@@ -26,7 +26,7 @@
     [self.URLConnection cancel];
     
     self.delegate = delegate;
-    NSString *URLString = @"http://localhost/login.xml";
+    NSString *URLString = @"http://192.168.0.100/login.xml";
     
     // POST
     // 转化为合法的 URL 格式

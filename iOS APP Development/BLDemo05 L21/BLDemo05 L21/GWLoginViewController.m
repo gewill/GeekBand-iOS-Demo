@@ -46,6 +46,7 @@
 - (void)requestSuccess:(GWLoginRequest *)request user:(GWUser *)user {
     
     // 代理的发送者是 GWLoginViewController， 接受者是 GWLoginRequestDelegate
+    // delegate 可以通过返回值的形式来给发送者作出回应。本例返回值就是 user
     // 发送登陆请求成功时，把 user 赋值给全局单例 user
     [GWGlobal shareGlobal].user = user;
     
