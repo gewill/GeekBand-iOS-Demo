@@ -1,0 +1,374 @@
+{
+  "title": "iOS Developing",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "0.5": {
+      "title": "UI",
+      "id": 9,
+      "attr": {
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "UINavitgation",
+          "id": 51,
+          "attr": {
+            "position": [
+              111.5,
+              66,
+              1
+            ],
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "UITableView",
+          "id": 55
+        },
+        "3": {
+          "title": "UIScrollView",
+          "id": 68
+        },
+        "4": {
+          "title": "UITabedView",
+          "id": 69,
+          "ideas": {}
+        },
+        "5": {
+          "title": "UIWebView",
+          "id": 72
+        },
+        "6": {
+          "title": "UIMapView",
+          "id": 73
+        },
+        "7": {
+          "title": "UIResperter",
+          "id": 75
+        },
+        "8": {
+          "title": "UIPageView",
+          "id": 86,
+          "attr": {
+            "style": {}
+          },
+          "ideas": {}
+        },
+        "0.5": {
+          "title": "UIView",
+          "id": 54,
+          "attr": {
+            "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "UIControl",
+              "id": 56,
+              "ideas": {
+                "1": {
+                  "title": "UIButton",
+                  "id": 58
+                },
+                "2": {
+                  "title": "UILabel",
+                  "id": 59
+                },
+                "3": {
+                  "title": "UIImage",
+                  "id": 60
+                },
+                "4": {
+                  "title": "UITextField",
+                  "id": 61
+                },
+                "5": {
+                  "title": "UITextLabel",
+                  "id": 62
+                },
+                "6": {
+                  "title": "UISwitch",
+                  "id": 64
+                },
+                "7": {
+                  "title": "UISlider",
+                  "id": 65
+                },
+                "8": {
+                  "title": "UISperter",
+                  "id": 66
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "0.25": {
+      "title": "Objective-C",
+      "id": 5,
+      "attr": {
+        "style": {},
+        "position": [
+          107,
+          -114,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Basics",
+          "id": 11,
+          "ideas": {}
+        },
+        "2": {
+          "title": "Control Flow",
+          "id": 14
+        },
+        "3": {
+          "title": "Literals",
+          "id": 16
+        },
+        "4": {
+          "title": "Marcos",
+          "id": 19,
+          "attr": {
+            "style": {}
+          }
+        },
+        "1.5": {
+          "title": "Operator",
+          "id": 34
+        },
+        "1.75": {
+          "title": "Cellections",
+          "id": 35
+        },
+        "1.9375": {
+          "title": "Blocks",
+          "id": 37
+        },
+        "3.25": {
+          "title": "Property",
+          "id": 78
+        },
+        "3.375": {
+          "title": "Protocol",
+          "id": 79
+        },
+        "3.125": {
+          "title": "Method & Function",
+          "id": 36,
+          "attr": {
+            "style": {}
+          }
+        },
+        "3.6875": {
+          "title": "Instance varlibe",
+          "id": 81
+        },
+        "3.84375": {
+          "title": "Initalization",
+          "id": 83
+        },
+        "3.53125": {
+          "title": "Category",
+          "id": 91
+        },
+        "3.609375": {
+          "title": "Extention",
+          "id": 92
+        }
+      }
+    },
+    "-20": {
+      "title": "Design Pattern",
+      "id": 8,
+      "attr": {
+        "style": {},
+        "position": [
+          145.5,
+          205,
+          2
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "MVC",
+          "id": 23,
+          "ideas": {
+            "1": {
+              "title": "View Life Cycle",
+              "id": 85
+            }
+          }
+        },
+        "2": {
+          "title": "MVVM",
+          "id": 24
+        },
+        "3": {
+          "title": "Target-Action",
+          "id": 25
+        },
+        "4": {
+          "title": "Delegation",
+          "id": 26
+        },
+        "5": {
+          "title": "KVO",
+          "id": 90
+        },
+        "6": {
+          "title": "Notifications",
+          "id": 39
+        },
+        "7": {
+          "title": "Singleton",
+          "id": 40
+        },
+        "6.5": {
+          "title": "Blocks",
+          "id": 48
+        }
+      }
+    },
+    "1.5": {
+      "title": "Network",
+      "id": 96,
+      "ideas": {
+        "1": {
+          "title": "NSURLConnection",
+          "id": 99
+        },
+        "2": {
+          "title": "NSJSONSerialization",
+          "id": 101
+        },
+        "3": {
+          "title": "NSXMLParser",
+          "id": 106
+        },
+        "4": {
+          "title": "AFNetworking",
+          "id": 115,
+          "attr": {
+            "position": [
+              16.5,
+              102.5,
+              1
+            ],
+            "style": {}
+          }
+        },
+        "1.5": {
+          "title": "NSURLSession",
+          "id": 103,
+          "ideas": {}
+        }
+      }
+    },
+    "11.5": {
+      "title": "Persistence",
+      "id": 97,
+      "ideas": {
+        "1": {
+          "title": "Sandbox",
+          "id": 109
+        },
+        "2": {
+          "title": "NSUserDefaults",
+          "id": 110
+        },
+        "3": {
+          "title": "NSFile",
+          "id": 111
+        },
+        "4": {
+          "title": "Core Data",
+          "id": 112
+        },
+        "5": {
+          "title": "FMDB",
+          "id": 114
+        }
+      }
+    },
+    "-30": {
+      "title": "Xcode",
+      "id": 7,
+      "attr": {
+        "style": {},
+        "position": [
+          171.5,
+          586,
+          3
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "View Controller",
+          "id": 27
+        },
+        "2": {
+          "title": "View",
+          "id": 28
+        },
+        "3": {
+          "title": "Layer",
+          "id": 29
+        },
+        "5": {
+          "title": "Interface Builder",
+          "id": 31,
+          "attr": {
+            "style": {}
+          }
+        },
+        "6": {
+          "title": "Sgeue",
+          "id": 32
+        },
+        "7": {
+          "title": "AutoLayout",
+          "id": 41
+        },
+        "8": {
+          "title": "Recfence",
+          "id": 42,
+          "attr": {
+            "style": {}
+          }
+        },
+        "9": {
+          "title": "Outlet",
+          "id": 43
+        },
+        "10": {
+          "title": "Action",
+          "id": 44
+        },
+        "11": {
+          "title": "Debug",
+          "id": 45
+        },
+        "12": {
+          "title": "Preview",
+          "id": 46
+        },
+        "13": {
+          "title": "Test",
+          "id": 47
+        },
+        "0.5": {
+          "title": "Window",
+          "id": 30,
+          "attr": {
+            "style": {}
+          }
+        }
+      }
+    }
+  },
+  "links": []
+}
